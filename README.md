@@ -279,8 +279,32 @@ folder run  27-01_11-02 is created inside the picorv32a directory which contains
 
 ![Screenshot 2025-01-27 164043](https://github.com/user-attachments/assets/a5586bfc-d4d0-492b-ac64-cf54f5352058)
 
-temp file contents are as follow 
+temp file contents are as follow ,when we open merged.lef file we get contents as followes
 ![Screenshot 2025-01-27 164601](https://github.com/user-attachments/assets/ab055f6b-e2af-4be7-a35c-15d08f202e98)
+
+![Screenshot 2025-01-27 165805](https://github.com/user-attachments/assets/b10def4a-9414-45e4-b895-fa64a102dc0b)
+
+![Screenshot 2025-01-27 170817](https://github.com/user-attachments/assets/2903b857-6826-469e-b5de-5a4acbeaf2a6)
+
+![Screenshot 2025-01-27 170844](https://github.com/user-attachments/assets/0c8ed6f6-dc9d-40a4-8276-bb2b85b0d6a1)
+
+![Screenshot 2025-01-27 170950](https://github.com/user-attachments/assets/4391a0db-47f3-498f-a207-68001350419b)
+
+after run synthesis ,printing statistics as shown below can be used to calculate flip-flops ratio
+
+Flip flop ratio =no of DFFs/no of cells *100
+
+1613/18036*100 = 8.94%
+
+![Screenshot 2025-01-27 200101](https://github.com/user-attachments/assets/dbe81d68-bdfa-48a1-96c3-11f12c5c054d)
+
+![Screenshot 2025-01-27 200929](https://github.com/user-attachments/assets/658ea58a-c781-429a-9374-2b39aeed2e4d)
+
+
+
+
+
+
 
 
 
