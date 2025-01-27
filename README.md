@@ -212,6 +212,77 @@ Physical verfication
 
 ![Screenshot 2025-01-26 212002](https://github.com/user-attachments/assets/e7f23fb8-8115-43c5-968f-32fa28f07801)
 
+OpenLane is an open-source platform for silicon implementation in VLSI (very large scale integration). It's used to construct digital ASIC physical implementation flows OpenLane's flow includes synthesis, floor planning, placement, clock tree synthesis, routing, RC extraction, STA, sign-off steps, and GDSII extraction.
+
+OpenLane is free to use and modify. 
+
+OpenLane can be customized with Python scripts and utilities. 
+
+OpenLane supports tools like Yosys, OpenROAD, Magic, and KLayout. 
+
+open terminal in  virtualbox as shown below 
+
+
+![Screenshot 2025-01-27 140500](https://github.com/user-attachments/assets/d05ac0d1-9ebe-4b13-b328-95720b970b68)
+
+1) Type cd Desktop -where "cd" stands for "change directory" and "desktop" refers to the Desktop folder on your computer,then go to work/tools this wher our files r saved
+
+2) ls -ltr  --will list the contents in the folder in chronological order
+
+![Screenshot 2025-01-27 150628](https://github.com/user-attachments/assets/8555fe8d-a4d2-4d9c-944d-7ea26a8ba830)
+
+3)next cd openlane and list the contents of this folder type ls -ltr
+
+4)to check contents of pdk  type cd pdk n ls -ltr
+
+5)in pdk we can see sky130a, cd sky130a will show contents which contain libs.tech. libs.tech contains all tool specific files
+
+
+![Screenshot 2025-01-27 152313](https://github.com/user-attachments/assets/d9764e37-786b-464c-9ac2-5ed81c708ac3)
+
+6)similarlly libs.ref contains all the technology/foundry related processes
+
+
+![Screenshot 2025-01-27 152613](https://github.com/user-attachments/assets/9a1b0b7f-1463-459f-a8b2-c95ce0d80a6c)
+
+
+![Screenshot 2025-01-27 153740](https://github.com/user-attachments/assets/9978dbb4-44b0-4158-9423-5ce3abb47091)
+
+lets work with openlane 
+
+
+![Screenshot 2025-01-27 154047](https://github.com/user-attachments/assets/b7277024-92d9-499e-9b1c-6ddb4a385ee2)
+
+to start openlane type docker command ,the prompt changes to bash-4.2$,ls -lrth--->then type flow.tcl -interactive---> package require openlane 0.9 will give information about openlane 
+
+
+![Screenshot 2025-01-27 154515](https://github.com/user-attachments/assets/279de637-b0e0-4b8c-a0e2-18981abf345d)
+
+openlane has many designs in this lets work with picorv32
+
+
+![Screenshot 2025-01-27 161822](https://github.com/user-attachments/assets/51d2a3bd-42db-4254-9aef-fb80e1c04cb7)
+
+
+![Screenshot 2025-01-27 162515](https://github.com/user-attachments/assets/b4b740af-541c-4df4-bdf0-9ba7a492f573)
+
+let us prepare design in openlane by command prep _design picorv32a
+
+
+![Screenshot 2025-01-27 163245](https://github.com/user-attachments/assets/63a4fc83-ea16-4b8e-ab03-4b3e8c17f9ae)
+
+
+
+
+
+
+
+
+   
+
+
+
+
    
 
 
