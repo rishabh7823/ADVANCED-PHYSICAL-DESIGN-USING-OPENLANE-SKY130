@@ -352,6 +352,18 @@ SURROUND pre-placed cells with decoupling capacitors
 
 When we need 1 in the logic circuit capacitors in the circuit need full charge n dicharge when 0 is needed .power supply is connected to logic circuits with resistors n impedence so some amount of voltage is lost beofre it  reches logic circuit n it is called noise margine .Logic gate to be 0 or 1 it should be in the NM2 and NMh ranges respectivelly the problem can be solved by decoupling capacitor .Decoupling capacitor decouples logic circuit with the main supply.
 
+POWER PLANNING 
+
+purpose of power planning : all capacitors which were charged to V volts will have to discharge to 0 volts through single grounded tap point this will cause bump in ground tap point and is called Ground bounce 
+
+all capacitors which were 0 volts will have to charge to V volts through single Vdd tap point this will cause lowering of voltage at Vdd tap point and ia called voltage drop 
+
+this problem can be solved by multiple power supplies as shown below 
+
+COMPLETE DESIGN
+
+It involves all steps of the design process, starting with system requirements, moving through RTL coding, logic synthesis, physical design, and ending with verification and layout checks to ensure the chip meets all performance and functionality criteria. 
+
 
 
 
