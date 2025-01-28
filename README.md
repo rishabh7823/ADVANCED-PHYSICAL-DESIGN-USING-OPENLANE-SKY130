@@ -1,3 +1,4 @@
+
 SKY130 Day 1: Inception of OpenSource EDA, OpenLANE and SKY130 PDK 
   
   How to Talk to Computers
@@ -346,6 +347,12 @@ combinational logic is huge circuit suppose if there are 100k logic gates we can
 *These IP's /blocks have user -defined locations ,and hence are placed in chip before automated plcement and routing and are called PRE-PLACED cells 
 
 *Automated placement and routing tools place the remaining logical cells in the design onto chip
+
+SURROUND pre-placed cells with decoupling capacitors 
+
+When we need 1 in the logic circuit capacitors in the circuit need full charge n dicharge when 0 is needed .power supply is connected to logic circuits with resistors n impedence so some amount of voltage is lost beofre it  reches logic circuit n it is called noise margine .Logic gate to be 0 or 1 it should be in the NM2 and NMh ranges respectivelly the problem can be solved by decoupling capacitor .Decoupling capacitor decouples logic circuit with the main supply.
+
+
 
 
 
