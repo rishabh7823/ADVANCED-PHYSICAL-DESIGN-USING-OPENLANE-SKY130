@@ -313,6 +313,45 @@ Flip flop ratio =no of DFFs/no of cells *100
 After this, type the command run_synthesis to run synthesis which converts an abstract netlist into a program to run yosys RTL synthesis, ABC scripts (for technology mapping) and openSTA
 
 
+DAY 2
+
+1) CHIP FLOOR PLANNING CONSIDERATIONS 
+
+utilisation factor and Aspect Ratio 
+
+Floorplanning is basically the arrangement of logical blocks (i.e. multiplexer, AND, OR gates, buffers) on silicon chiphere we need to plan height and width of the core and die
+
+Example :let us take each cell with standard dimensions as 1 unit there are 4 units arranged as shown below 
+
+utilisation factor :The utilization factor is the ratio of the area of the net list to the total area of the core. 
+
+Aspect ratio:
+The aspect ratio is the ratio of the height to the width of a chip. 
+if utilization factor is 1 means 100% utilzation of space and it will be in square in shape ,other than 1 it is rectangular in shape 
+
+DAY2 
+2) Example 2 let us find utilization factore n ascepect ratio of block with 4X 4 unit area and netlist with area 2X2 
+utilization factor is 2X2/4X4 = 0.25
+
+it says that out of the complete chip area only 25% is used by netlist and 75% is available for optimization 
+
+aspect ratio is 4/4 =1 that means it is square in shape 
+
+DEFINE LOCATION OF PREPLACED CELLS 
+
+combinational logic is huge circuit suppose if there are 100k logic gates we can divide the circuit into two blocks of 50k each as shown . advantage of doing seperate block is each block can be used multiple time and we dont have to implement multiple times.
+
+*The arrangement of these IP's in chip is reffered as FLOOR PLANNING 
+
+*These IP's /blocks have user -defined locations ,and hence are placed in chip before automated plcement and routing and are called PRE-PLACED cells 
+
+*Automated placement and routing tools place the remaining logical cells in the design onto chip
+
+
+
+
+
+
 
 
 
