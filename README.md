@@ -324,11 +324,20 @@ Floorplanning is basically the arrangement of logical blocks (i.e. multiplexer, 
 
 Example :let us take each cell with standard dimensions as 1 unit there are 4 units arranged as shown below 
 
+![Screenshot 2025-01-29 005817](https://github.com/user-attachments/assets/ba4790ce-81a5-4633-a14e-deb3396e42f6)
+
+
+![Screenshot 2025-01-29 005320](https://github.com/user-attachments/assets/f3335801-f81c-413c-ba4b-0df633b33187)
+
+
 utilisation factor :The utilization factor is the ratio of the area of the net list to the total area of the core. 
 
 Aspect ratio:
 The aspect ratio is the ratio of the height to the width of a chip. 
 if utilization factor is 1 means 100% utilzation of space and it will be in square in shape ,other than 1 it is rectangular in shape 
+
+![Screenshot 2025-01-29 005857](https://github.com/user-attachments/assets/a8964aa9-8d06-4040-afa5-b91ef5243478)
+
 
 DAY2 
 2) Example 2 let us find utilization factore n ascepect ratio of block with 4X 4 unit area and netlist with area 2X2 
@@ -340,7 +349,17 @@ aspect ratio is 4/4 =1 that means it is square in shape
 
 DEFINE LOCATION OF PREPLACED CELLS 
 
+
+![Screenshot 2025-01-29 010115](https://github.com/user-attachments/assets/7a76e9ca-e6c8-49b0-854d-dca9dba88267)
+
+
+![Screenshot 2025-01-29 010308](https://github.com/user-attachments/assets/de7616dc-98d2-40f4-b3ec-4dfda3bccad5)
+
+
 combinational logic is huge circuit suppose if there are 100k logic gates we can divide the circuit into two blocks of 50k each as shown . advantage of doing seperate block is each block can be used multiple time and we dont have to implement multiple times.
+
+![Screenshot 2025-01-29 010521](https://github.com/user-attachments/assets/e62f90ca-98c9-4e27-86ba-3942587c7625)
+
 
 *The arrangement of these IP's in chip is reffered as FLOOR PLANNING 
 
@@ -352,17 +371,31 @@ SURROUND pre-placed cells with decoupling capacitors
 
 When we need 1 in the logic circuit capacitors in the circuit need full charge n dicharge when 0 is needed .power supply is connected to logic circuits with resistors n impedence so some amount of voltage is lost beofre it  reches logic circuit n it is called noise margine .Logic gate to be 0 or 1 it should be in the NM2 and NMh ranges respectivelly the problem can be solved by decoupling capacitor .Decoupling capacitor decouples logic circuit with the main supply.
 
+![Screenshot 2025-01-29 011134](https://github.com/user-attachments/assets/522425aa-03f1-4e60-b146-b641a3815c2a)
+
+
 POWER PLANNING 
 
 purpose of power planning : all capacitors which were charged to V volts will have to discharge to 0 volts through single grounded tap point this will cause bump in ground tap point and is called Ground bounce 
 
+![Screenshot 2025-01-29 011134](https://github.com/user-attachments/assets/d8a54d4a-a8c4-4ca4-b6ec-6577ada72ed3)
+
+
 all capacitors which were 0 volts will have to charge to V volts through single Vdd tap point this will cause lowering of voltage at Vdd tap point and ia called voltage drop 
 
-this problem can be solved by multiple power supplies as shown below 
+this problem can be solved by multiple power supplies as shown below
+
+
+![Screenshot 2025-01-29 011639](https://github.com/user-attachments/assets/0baa2bb2-a48d-4da3-8236-1a3f877e4e60)
+
+
 
 COMPLETE DESIGN
 
 It involves all steps of the design process, starting with system requirements, moving through RTL coding, logic synthesis, physical design, and ending with verification and layout checks to ensure the chip meets all performance and functionality criteria. 
+
+![Screenshot 2025-01-29 011749](https://github.com/user-attachments/assets/8a20a920-b4dc-4137-9a50-67613f9a6bc0)
+
 
 
 
