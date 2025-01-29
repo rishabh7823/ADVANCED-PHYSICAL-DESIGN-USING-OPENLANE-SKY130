@@ -450,6 +450,32 @@ magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs
 
 ![Screenshot 2025-01-29 074447](https://github.com/user-attachments/assets/a3d9cd80-f452-4b5f-977d-4b1f4d1377bc)
 
+congestion Aware placement using REPLACE 
+
+#command to run placement
+
+% run_placement
+
+after running placement in another terminal follow below command 
+
+cd Desktop/wirk/tools//openlane_working_dir/openlane/designs/picorv32a/28-01_17-09/results/placement
+
+magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef read ../../tmp/merged.lef def read picorv32a.p/acement.def &
+
+weget as follows
+
+![Screenshot 2025-01-29 065721](https://github.com/user-attachments/assets/cd86f3e5-981b-4fb6-87ee-ffe85d00348e)
+
+![Screenshot 2025-01-29 072406](https://github.com/user-attachments/assets/df7e4cb9-08bc-402a-88f8-cfed71c3d2f7)
+
+![Screenshot 2025-01-29 072421](https://github.com/user-attachments/assets/e713c755-53da-4be4-93d1-5a9c5b51df17)
+
+![Screenshot 2025-01-29 073644](https://github.com/user-attachments/assets/fee1387e-1828-4474-9d98-361ebd559bae)
+
+![Screenshot 2025-01-29 073953](https://github.com/user-attachments/assets/4a385d60-5c0b-4437-8c37-86488a64f323)
+
+
+
 
 
 
