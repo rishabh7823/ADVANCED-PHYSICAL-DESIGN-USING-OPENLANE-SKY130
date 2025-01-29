@@ -396,6 +396,71 @@ It involves all steps of the design process, starting with system requirements, 
 
 ![Screenshot 2025-01-29 011749](https://github.com/user-attachments/assets/8a20a920-b4dc-4137-9a50-67613f9a6bc0)
 
+# to run floorplan follw below steps/commands
+
+cd Desktop/wirk/tools//openlane_working_dir/openlane
+
+docker
+
+./flow.tcl -interactive
+
+#to prepare package 
+
+package require openlane 0.9
+
+![Screenshot 2025-01-28 204247](https://github.com/user-attachments/assets/5c37bb49-1589-4439-a725-ffa19088a174)
+
+
+#we can run synthesis y command
+
+% run_synthesis
+
+%run_floorplan 
+
+
+![Screenshot 2025-01-29 100518](https://github.com/user-attachments/assets/f133526e-c384-4a2a-b58d-4063b6ceea6c)
+
+
+![Screenshot 2025-01-29 100543](https://github.com/user-attachments/assets/aecbd9fd-8a9b-4f63-aa92-324fd52b13d3)
+
+
+here we get values to calculate Area of diearea .here die width = 660.685 microns and dieheight=671.405
+
+Area of die in microns =660.685*671.405=671.405 micron
+
+Review floorplan layout in magic 
+
+#commands are as follows
+
+cd Desktop/wirk/tools//openlane_working_dir/openlane/designs/picorv32a/28-01_17-09/results/floorplan/
+
+#follow by magic tool
+
+magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef read ../../tmp/merged.lef def read picorv32a.floorplan.def &
+
+![Screenshot 2025-01-28 234606](https://github.com/user-attachments/assets/04bccd04-d689-44d4-b050-dc7769188bf5)
+
+![Screenshot 2025-01-28 234642](https://github.com/user-attachments/assets/2d70ebe5-2f02-471d-b927-d4f41e6a6925)
+
+![Screenshot 2025-01-28 235812](https://github.com/user-attachments/assets/4688cd92-b4aa-45de-b734-3ed07eda2b73)
+
+![Screenshot 2025-01-28 235908](https://github.com/user-attachments/assets/b1784bbf-fe96-4463-9253-235bdfb7be78)
+
+![Screenshot 2025-01-29 000223](https://github.com/user-attachments/assets/97e9cbd9-f7bb-4d36-a6bc-06aaae943bf4)
+
+![Screenshot 2025-01-29 074447](https://github.com/user-attachments/assets/a3d9cd80-f452-4b5f-977d-4b1f4d1377bc)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
