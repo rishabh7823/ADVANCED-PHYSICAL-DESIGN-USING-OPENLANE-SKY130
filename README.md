@@ -314,7 +314,7 @@ Flip flop ratio =no of DFFs/no of cells *100
 After this, type the command run_synthesis to run synthesis which converts an abstract netlist into a program to run yosys RTL synthesis, ABC scripts (for technology mapping) and openSTA
 
 
-DAY 2
+# DAY 2
 
 1) CHIP FLOOR PLANNING CONSIDERATIONS 
 
@@ -339,7 +339,6 @@ if utilization factor is 1 means 100% utilzation of space and it will be in squa
 ![Screenshot 2025-01-29 005857](https://github.com/user-attachments/assets/a8964aa9-8d06-4040-afa5-b91ef5243478)
 
 
-DAY2 
 2) Example 2 let us find utilization factore n ascepect ratio of block with 4X 4 unit area and netlist with area 2X2 
 utilization factor is 2X2/4X4 = 0.25
 
