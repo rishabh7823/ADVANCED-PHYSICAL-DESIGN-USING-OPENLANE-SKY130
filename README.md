@@ -474,6 +474,108 @@ weget as follows
 
 ![Screenshot 2025-01-29 073953](https://github.com/user-attachments/assets/4a385d60-5c0b-4437-8c37-86488a64f323)
 
+Bindlist with physical cells 
+
+In reality gates are square on rectangle in shape 
+
+
+1. Library :-
+   All components are present in shelf and it is called as library it will delay information about height width delay and require condition of every cell
+
+3. Plcement :-
+   we have loreplan and netlist and physical view of logical gates so now let us place in properway as followes input are placed near input and output near outputs as much as possible
+
+## Optimize placement
+
+This isthe stage where we estimate wire length and capacitance and based on that insert repeaters . 
+
+To maintain signal integtraty we place repeaters [ buffers ] . Buffers are placed if distance is more 
+
+## Final placement optimization 
+
+Need for Libreries and charactorization logic synthesis :- 
+
+synthesis is the process of converting a RTL code to optimized gate level netlist to the targeted technology CTS - Clock Tree Synthesis - clock being spread across whole the logiccells at an equal time 
+
+Steps  -logic synthesis - floor planning -placement - CTS - routing 
+
+STA - Static Timing Analysis is the last step in chip design 
+
+Placement :- 
+
+commend to coneze design 
+
+% run_placement [ Global Placement Happens ]
+
+placement in done let us check how our design is fun that command is 
+
+cd Desktop/wirk/tools//openlane_working_dir/openlane/designs/picorv32a/run/28-01_17-09/results/floorplan 
+
+cd Desktop/wirk/tools//openlane_working_dir/openlane/designs/picorv32a/28-01_17-09/results/placement
+
+we can see def life created 
+
+magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef read ../../tmp/merged.lef def read picorv32a.placement.def &
+
+SKY.L1 - inputs for cell design flow 
+
+Standard cells in IC design are nothing but buffer , flipflops , and , OR , gate , inverter  and there are kept in library . 
+
+Each components flow foundary parameter some examples are shawn below 
+
+Design steps involves :- 
+
+is steps circuit design layout steps involves 3 steps circuit design , layout design and characterization 
+
+Circuit design - 
+
+we get value of [ WP/LP ] of pmos and WN/LN of nmos 
+
+implement these value in layout design using
+
+Charactorixation flow . 
+
+1. Read in the mode files
+
+2. Extracted spices netlist
+
+3. Defin or recognise the behavior of the buffer
+
+4. Read sub circuit  of the inverter
+
+5. Attach power sources
+
+6. Apply the stimatus
+
+7. Output capacitance
+
+8. Neccessary stimulation common
+
+## Timing Chracterization
+
+   delay = time [ out_*_thr ] - time [ in_*_the ]
+
+   time [ slew_high_rise_thr ] - time [ slew_low_rise_thr ] 
+
+time [ slew_high_fall_the ] - time [ slew_low_fall_the ] 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
