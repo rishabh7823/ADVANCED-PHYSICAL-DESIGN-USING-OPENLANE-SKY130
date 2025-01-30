@@ -67,13 +67,16 @@ COMMANDS TO FOLLOW
 
 #cd dDesktop /work/tools/openlane_working_dir/openlane
 
-#gitclone https:
+#gitclone https://github.com/nickson-jose/vsdstdcelldesign
 
-cdvsdstdcell design
+#cd vsdstdcelldesign
 
-cp :/home/vsduser/Desktop/work/tools/opelane/working_dir/pdks
+#cp /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech /home/vsduser/Desktop/work/tools/openlane_working_dir/openlane/vsdstdcelldesign/
 
-sky130A/libs.tech/magic/sky130A.t
+
+#sky130A/libs.tech/magic/sky130A.t
+
+#ls
 
 ![Screenshot 2025-01-29 210401](https://github.com/user-attachments/assets/75f5f637-40ff-4f81-91eb-831c7f6f89c0)
 
