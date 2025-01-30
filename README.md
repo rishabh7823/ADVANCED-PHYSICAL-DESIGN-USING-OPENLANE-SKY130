@@ -459,7 +459,20 @@ after running placement in another terminal follow below command
 
 cd Desktop/wirk/tools//openlane_working_dir/openlane/designs/picorv32a/28-01_17-09/results/placement
 
+![Screenshot 2025-01-29 065721](https://github.com/user-attachments/assets/f321c087-da56-432d-b68c-546c30cdc27f)
+
+![Screenshot 2025-01-29 072439](https://github.com/user-attachments/assets/c40699c9-e31d-4e9c-8117-d06a896d8535)
+
+
 magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef read ../../tmp/merged.lef def read picorv32a.p/acement.def &
+
+
+![Screenshot 2025-01-29 072406](https://github.com/user-attachments/assets/92958058-4acb-43f4-bcc2-57af4ebf31e5)
+
+
+![Screenshot 2025-01-29 073644](https://github.com/user-attachments/assets/f1cbaf16-b58c-4cdb-9394-c9040c820cd4)
+
+![Screenshot 2025-01-29 072421](https://github.com/user-attachments/assets/ecdea6f4-1a61-4e35-99b7-ceb4c447b9df)
 
 weget as follows
 
@@ -473,6 +486,11 @@ weget as follows
 
 ![Screenshot 2025-01-29 073953](https://github.com/user-attachments/assets/4a385d60-5c0b-4437-8c37-86488a64f323)
 
+![Screenshot 2025-01-29 074447](https://github.com/user-attachments/assets/f111b4bd-2ef9-4b60-9fa1-59fd99024e1d)
+
+![Screenshot 2025-01-29 074801](https://github.com/user-attachments/assets/0a1835af-277e-4680-ae34-858aaf30830b)
+
+
 Bindlist with physical cells 
 
 In reality gates are square on rectangle in shape 
@@ -481,8 +499,14 @@ In reality gates are square on rectangle in shape
 1. Library :-
    All components are present in shelf and it is called as library it will delay information about height width delay and require condition of every cell
 
+
+![Screenshot 2025-01-29 132138](https://github.com/user-attachments/assets/8bde0fea-91b8-47b7-ace0-5867285a0dbf)
+
+
 3. Plcement :-
    we have loreplan and netlist and physical view of logical gates so now let us place in properway as followes input are placed near input and output near outputs as much as possible
+
+![Screenshot 2025-01-29 132633](https://github.com/user-attachments/assets/77c6d5a4-278d-4559-a3c8-2eb42c7d3984)
 
 ## Optimize placement
 
@@ -490,9 +514,20 @@ This isthe stage where we estimate wire length and capacitance and based on that
 
 To maintain signal integtraty we place repeaters [ buffers ] . Buffers are placed if distance is more 
 
+![Screenshot 2025-01-29 133645](https://github.com/user-attachments/assets/16f519a8-d0f7-4593-a860-cc3d7908f55c)
+
+
 ## Final placement optimization 
 
+
+![Screenshot 2025-01-29 134521](https://github.com/user-attachments/assets/89b42163-2a92-4839-abe0-917efd4a775a)
+
+
 Need for Libreries and charactorization logic synthesis :- 
+
+
+![Screenshot 2025-01-29 140132](https://github.com/user-attachments/assets/d9a4f797-a1e8-4d64-a9e4-a10f568d4a63)
+
 
 synthesis is the process of converting a RTL code to optimized gate level netlist to the targeted technology CTS - Clock Tree Synthesis - clock being spread across whole the logiccells at an equal time 
 
@@ -502,11 +537,13 @@ STA - Static Timing Analysis is the last step in chip design
 
 Placement :- 
 
-commend to coneze design 
+commend to conreze design 
 
 % run_placement [ Global Placement Happens ]
 
 placement in done let us check how our design is fun that command is 
+
+
 
 cd Desktop/wirk/tools//openlane_working_dir/openlane/designs/picorv32a/run/28-01_17-09/results/floorplan 
 
@@ -520,7 +557,13 @@ SKY.L1 - inputs for cell design flow
 
 Standard cells in IC design are nothing but buffer , flipflops , and , OR , gate , inverter  and there are kept in library . 
 
-Each components flow foundary parameter some examples are shawn below 
+Each components flow foundary parameter some examples are sh0wn below 
+
+![Screenshot 2025-01-29 142242](https://github.com/user-attachments/assets/b75e6f18-2857-4205-89f9-62fb9e5d4f3e)
+
+![Screenshot 2025-01-29 142646](https://github.com/user-attachments/assets/215c1e53-8aaa-43fe-aa26-5b3822048e58)
+
+![Screenshot 2025-01-29 152149](https://github.com/user-attachments/assets/51ef9527-e10c-4bce-87c3-841744c8a1fc)
 
 Design steps involves :- 
 
@@ -531,6 +574,8 @@ Circuit design -
 we get value of [ WP/LP ] of pmos and WN/LN of nmos 
 
 implement these value in layout design using
+
+![Screenshot 2025-01-29 153218](https://github.com/user-attachments/assets/c2aaaf66-4274-40ef-aaf0-78a710a44399)
 
 Charactorixation flow . 
 
@@ -556,7 +601,9 @@ Charactorixation flow .
 
    time [ slew_high_rise_thr ] - time [ slew_low_rise_thr ] 
 
-time [ slew_high_fall_the ] - time [ slew_low_fall_the ] 
+   time [ slew_high_fall_the ] - time [ slew_low_fall_the ] 
+
+![Screenshot 2025-01-29 153338](https://github.com/user-attachments/assets/1918f3a8-80bb-45e6-88f5-ce00a521a79d)
 
 
 
