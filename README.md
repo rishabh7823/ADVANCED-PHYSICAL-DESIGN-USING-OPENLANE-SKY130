@@ -470,17 +470,9 @@ magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs
 ![Screenshot 2025-01-29 072406](https://github.com/user-attachments/assets/92958058-4acb-43f4-bcc2-57af4ebf31e5)
 
 
-![Screenshot 2025-01-29 073644](https://github.com/user-attachments/assets/f1cbaf16-b58c-4cdb-9394-c9040c820cd4)
-
-![Screenshot 2025-01-29 072421](https://github.com/user-attachments/assets/ecdea6f4-1a61-4e35-99b7-ceb4c447b9df)
 
 weget as follows
 
-![Screenshot 2025-01-29 065721](https://github.com/user-attachments/assets/cd86f3e5-981b-4fb6-87ee-ffe85d00348e)
-
-![Screenshot 2025-01-29 072406](https://github.com/user-attachments/assets/df7e4cb9-08bc-402a-88f8-cfed71c3d2f7)
-
-![Screenshot 2025-01-29 072421](https://github.com/user-attachments/assets/e713c755-53da-4be4-93d1-5a9c5b51df17)
 
 ![Screenshot 2025-01-29 073644](https://github.com/user-attachments/assets/fee1387e-1828-4474-9d98-361ebd559bae)
 
