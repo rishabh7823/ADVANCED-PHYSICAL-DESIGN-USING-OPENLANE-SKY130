@@ -185,19 +185,27 @@ The parameters which define the rubestnest :
 
 ![Screenshot 2025-01-31 134158](https://github.com/user-attachments/assets/e3961557-b243-4afa-bffa-d31322c0c555)
 
+![Screenshot 2025-01-31 143418](https://github.com/user-attachments/assets/5428ed0c-86ec-40ed-9dfa-636a42b218f7)
 
+![Screenshot 2025-01-31 143556](https://github.com/user-attachments/assets/94582932-684e-4084-bc56-492a0bf4c6eb)
 
-  
+![Screenshot 2025-01-31 160821](https://github.com/user-attachments/assets/f20cffd5-95e9-4980-b443-7ad2655bb1e5)
 
+![Screenshot 2025-01-31 163123](https://github.com/user-attachments/assets/95e10814-ba14-4aa4-9e1f-5c2df842051c)
 
+![Screenshot 2025-01-31 164850](https://github.com/user-attachments/assets/6ffd5e07-5421-4580-9f37-83e169de8bae)
 
+![Screenshot 2025-01-31 165435](https://github.com/user-attachments/assets/c379a3c6-5906-4e09-8d9c-2dc0811c7384)
 
+![Screenshot 2025-01-31 165621](https://github.com/user-attachments/assets/31df7bf3-43a7-479f-85bd-9bb3b796ba91)
 
+![Screenshot 2025-01-31 171728](https://github.com/user-attachments/assets/390d078b-8463-4912-8181-5134f0b4a721)
 
+![Screenshot 2025-01-31 180059](https://github.com/user-attachments/assets/1cb9d072-7db3-4f35-8560-7eb698f202d8)
 
+![Screenshot 2025-01-31 180814](https://github.com/user-attachments/assets/a13758e9-276e-4805-aa69-4553934338fd)
 
-
-
+![Screenshot 2025-01-31 180933](https://github.com/user-attachments/assets/456d39de-83d3-49de-9132-31959fec6412)
 
 
 
