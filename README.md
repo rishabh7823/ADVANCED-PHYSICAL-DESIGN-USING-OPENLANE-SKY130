@@ -149,7 +149,54 @@ The parameters which define the rubestnest :
 
   ![Screenshot 2025-01-30 205310](https://github.com/user-attachments/assets/e4b757d0-c062-4f18-9584-0681e576369c)
 
-  ![Screenshot 2025-01-30 171443](https://github.com/user-attachments/assets/662c76d7-d446-49b7-9a65-0d5be447c5d8)
+
+ ## Sky130_D3_SK2_L1 create active regions 
+
+  16 mask CMOS process 
+
+1. selecting a substrate [ layout ] most common is p-type
+
+2. Creating active region for transistors , this are buckets of Pmos - Nmos
+
+A - To create isoltion active region ,we can use Sio2 
+
+B - Then deposit potoresist , so we can identify the active regions 
+
+Mask*1 is ready -
+
+mask is any layout
+
+![Screenshot 2025-01-31 220251](https://github.com/user-attachments/assets/da9b6873-5c12-4de0-9512-78bc510f3fb3)
+
+after exposed to UV light the sides or the part not covered by mask gets washed away 
+
+![Screenshot 2025-01-31 220317](https://github.com/user-attachments/assets/ec002ee2-78f2-4398-a1ec-0796c9443822)
+
+C - then remove the mask 
+
+![Screenshot 2025-01-31 220612](https://github.com/user-attachments/assets/48eab084-9b1d-4fb2-b7bf-3595b048491c)
+
+E - then Si3N4 will be etched from other areas 
+
+![Screenshot 2025-01-31 220648](https://github.com/user-attachments/assets/edd13b74-5178-42df-8c22-808f0fe68885)
+
+F - then resisit will be removed 
+
+![Screenshot 2025-01-31 220710](https://github.com/user-attachments/assets/07c00b57-935c-4f52-8a2f-54f122030888)
+
+G - Then it is kept in furnance 
+
+![Screenshot 2025-01-31 220836](https://github.com/user-attachments/assets/ce905aa7-281d-4f99-90d4-ede89dfdcb0c)
+
+the big wooden things are isolation areas , its known as field oxide and the process is LACOS
+
+H - Si3N4 is striped out 
+
+![Screenshot 2025-01-31 221022](https://github.com/user-attachments/assets/54b08d68-61ee-4f8e-8731-43ec242ec7d6)
+
+3. - To create N-well and P-well
+
+![Screenshot 2025-01-30 171443](https://github.com/user-attachments/assets/662c76d7-d446-49b7-9a65-0d5be447c5d8)
 
 ![Screenshot 2025-01-30 173119](https://github.com/user-attachments/assets/5ba21fb8-d000-4ee8-8092-af5a07e32754)
 
