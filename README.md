@@ -149,21 +149,41 @@ The parameters which define the rubestnest :
 
   ![Screenshot 2025-01-30 205310](https://github.com/user-attachments/assets/e4b757d0-c062-4f18-9584-0681e576369c)
 
+  ![Screenshot 2025-01-30 171443](https://github.com/user-attachments/assets/662c76d7-d446-49b7-9a65-0d5be447c5d8)
 
+![Screenshot 2025-01-30 173119](https://github.com/user-attachments/assets/5ba21fb8-d000-4ee8-8092-af5a07e32754)
 
+![Screenshot 2025-01-30 180744](https://github.com/user-attachments/assets/579eec1f-eded-4323-9ba3-7d40ce9b1565)
 
+![Screenshot 2025-01-30 182406](https://github.com/user-attachments/assets/a01352bc-482f-4b11-8bcf-747cca58ac91)
 
+![Screenshot 2025-01-30 182537](https://github.com/user-attachments/assets/c40e1eea-05e5-4be9-8e06-2625c57d807b)
 
+![Screenshot 2025-01-30 185116](https://github.com/user-attachments/assets/b68bb2f3-d7ad-4dac-b150-538c07a8b1ed)
 
+![Screenshot 2025-01-30 190456](https://github.com/user-attachments/assets/2b056e63-0134-468c-80a4-576280dedcd5)
 
+![Screenshot 2025-01-30 191336](https://github.com/user-attachments/assets/5658ac13-a520-4c97-b056-2f1e7652b08c)
 
+![Screenshot 2025-01-30 191426](https://github.com/user-attachments/assets/dc32c674-ef70-46f2-ad33-0300301fc1ed)
 
+![Screenshot 2025-01-30 193826](https://github.com/user-attachments/assets/697d0699-c490-4162-89d5-42d89c916b3a)
+
+![Screenshot 2025-01-31 113144](https://github.com/user-attachments/assets/f9c87bae-b6b7-4ce7-86c4-93c291f7b0e6)
+
+![Screenshot 2025-01-31 124621](https://github.com/user-attachments/assets/be8c4b87-aa63-4900-9823-8d3059a22780)
  
+![Screenshot 2025-01-31 125003](https://github.com/user-attachments/assets/8762ce7f-c9a3-425b-98fa-2b28dd161310)
 
+![Screenshot 2025-01-31 125221](https://github.com/user-attachments/assets/bfd769b7-aabb-4118-95ad-bf735bef2c3c)
 
+![Screenshot 2025-01-31 131151](https://github.com/user-attachments/assets/381fa76c-80d2-4118-bf56-13b0089068f4)
   
+![Screenshot 2025-01-31 132944](https://github.com/user-attachments/assets/d164d171-deb2-4aef-a7db-ea358c897b16)
  
+![Screenshot 2025-01-31 134022](https://github.com/user-attachments/assets/9fb5f87c-9f88-43d1-b736-33b882c6bc5e)
 
+![Screenshot 2025-01-31 134158](https://github.com/user-attachments/assets/e3961557-b243-4afa-bffa-d31322c0c555)
 
 
 
