@@ -1,3 +1,4 @@
+
 # SKY130 Day 1: Inception of OpenSource EDA, OpenLANE and SKY130 PDK 
   
   How to Talk to Computers
@@ -961,6 +962,9 @@ H - Si3N4 is striped out
  ![Screenshot 2025-02-02 000138](https://github.com/user-attachments/assets/4173f683-a0d4-4cdd-84fb-927514120818)
   
 ![Screenshot 2025-02-02 000314](https://github.com/user-attachments/assets/f673abbc-df6f-4370-8b5c-fdfb5aabd79d)
+
+![Screenshot 2025-02-02 001904](https://github.com/user-attachments/assets/6bee9b05-65e0-4448-8979-3d6f2b2a6618)
+
 
 
 
