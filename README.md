@@ -938,7 +938,13 @@ H - Si3N4 is striped out
 
 ![Screenshot 2025-02-01 170059](https://github.com/user-attachments/assets/409c8f54-9b2d-4480-89a4-e3b72aabd44a)
 
+![Screenshot 2025-02-01 221203](https://github.com/user-attachments/assets/37de8221-21b1-4dd7-9073-7eba4a659b14)
 
+![Screenshot 2025-02-01 221440](https://github.com/user-attachments/assets/69485384-a315-43f3-82f5-9b5f06855e89)
+
+![Screenshot 2025-02-01 230421](https://github.com/user-attachments/assets/e475d0fa-3d66-4638-aa7a-d92428d772e6)
+
+![Screenshot 2025-02-01 232115](https://github.com/user-attachments/assets/6ddfeece-a511-4962-b5c4-c149b447d842)
 
 
 
