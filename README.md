@@ -1,6 +1,7 @@
+# Day 1
 
-# SKY130 Day 1: Inception of OpenSource EDA, OpenLANE and SKY130 PDK 
-  
+<details>
+
   How to Talk to Computers
   
     Introduction to QFN - 48 package, chip, pads, core, die and IPs
@@ -299,22 +300,15 @@ Flip flop ratio =no of DFFs/no of cells *100
 
 ![Screenshot 2025-01-27 200101](https://github.com/user-attachments/assets/dbe81d68-bdfa-48a1-96c3-11f12c5c054d)
 
-![Screenshot 2025-01-27 200929](https://github.com/user-attachments/assets/658ea58a-c781-429a-9374-2b39aeed2e4d)
-
-
-
-
-
-
-
-
-
-
+![Screenshot 2025-01-27 200929](https://github.com/user-attachments/assets/658ea58a-c781-429a-9374-2b39aeed2ede)
 
 After this, type the command run_synthesis to run synthesis which converts an abstract netlist into a program to run yosys RTL synthesis, ABC scripts (for technology mapping) and openSTA
 
+</details>
 
 # DAY 2
+
+<details>
 
 1) CHIP FLOOR PLANNING CONSIDERATIONS 
 
@@ -597,7 +591,11 @@ Charactorixation flow .
 
 ![Screenshot 2025-01-29 153338](https://github.com/user-attachments/assets/1918f3a8-80bb-45e6-88f5-ce00a521a79d)
 
+</details>
+
 # Day - 3 
+
+<details>
 
 ## SKY_L0 - IO placer revision
 
@@ -855,8 +853,11 @@ H - Si3N4 is striped out
 
 ![Screenshot 2025-01-31 180933](https://github.com/user-attachments/assets/456d39de-83d3-49de-9132-31959fec6412)
 
+</details>
 
 # Day-4 labs
+
+<details>
 
 
 ![Screenshot 2025-01-31 182101](https://github.com/user-attachments/assets/36966f7b-9c77-4587-876d-b89bae06931d)
@@ -965,6 +966,7 @@ H - Si3N4 is striped out
 
 ![Screenshot 2025-02-02 001904](https://github.com/user-attachments/assets/6bee9b05-65e0-4448-8979-3d6f2b2a6618)
 
+</details>
 
 
 
